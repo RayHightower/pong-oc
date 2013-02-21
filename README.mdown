@@ -1,3 +1,3 @@
-This is the Objective-C version of Don Bora's Pong game from the [http://themobilemakers.com](MobileMakers) January 2013 iOS Accelerated course.
+This is the Objective-C version of Don Bora's Pong game from [Mobile Makers Academy](http://mobilemakers.co) January 2013 iOS Accelerated course.
 
-Details on this repo and its RubyMotion companion, [http://github.com/rayhightower/pong-oc](pong-oc), can be found in the Pong/RubyMotion blog post at RayHightower.com.
+Details on this repo and its RubyMotion companion, [pong-oc](http://github.com/rayhightower/pong-oc), can be found in the Pong/RubyMotion blog post at RayHightower.com.
