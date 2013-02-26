@@ -18,6 +18,7 @@
     int                     directionX;
 }
 
+// This is some sort of pre-reference. What is the formal name for this again??
 -(void)moveBall:(NSTimer*)timer;
 @end
 
