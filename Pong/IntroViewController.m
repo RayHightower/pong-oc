@@ -48,6 +48,7 @@
     gameViewController.view.alpha = 0.0f;
     [self.view addSubview:gameViewController.view];
     
+    // The next animation handles the fade from the Start Screen to the Gaming Screen.
     [UIView animateWithDuration:2.0
                      animations:^{
                          gameViewController.view.alpha = 1.0f;
