@@ -11,7 +11,7 @@
 @implementation PaddleView
 @synthesize autoPlay;   // dig into this. Implement autoplay!!
 
-
+jj
 -(id)initWithCoder:(NSCoder *)aDecoder    // initWithCoder gets called by .xib file
 {
     self = [super initWithCoder:aDecoder];
@@ -37,7 +37,7 @@
                                        userInfo:nil repeats:YES];
     }
     else {
-        self.center = CGPointMake(self.center.x, self.center.y + 1);
+        // self.center = CGPointMake(self.center.x, self.center.y + 1);
     }
 }
 
@@ -52,7 +52,7 @@
                                         repeats:YES];
     }
     else {
-        self.center = CGPointMake(self.center.x, self.center.y - 1);
+        // self.center = CGPointMake(self.center.x, self.center.y - 1);
     }
 }
 

@@ -90,12 +90,12 @@ int rightScore = 0;
         [self resetBall:timer];
     }
     
-    ballView.center = CGPointMake(ballView.center.x + 3*directionX, ballView.center.y + 3*directionY);
+    ballView.center = CGPointMake(ballView.center.x + directionX, ballView.center.y + directionY);
 
     // collission detection with right paddle
     if (CGRectIntersectsRect(ballView.frame, rightPaddleView.frame) && (ballView.center.x < 406)) {
         directionX *= -1;
-        directionY *= -1;
+        directionY *= 1;
         // Introduce hysteresis? Wait 0.05 before checking for another collission?
     }
 
@@ -103,7 +103,7 @@ int rightScore = 0;
     // collission detection with left paddle
     if (CGRectIntersectsRect(ballView.frame, leftPaddleView.frame) && (ballView.frame.origin.x > 40)) {
         directionX *= -1;
-        directionY *= -1;
+        directionY *= 1;
         // Introduce hysteresis? Wait 0.05 before checking for another collission?
     }
     

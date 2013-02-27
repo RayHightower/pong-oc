@@ -55,7 +55,7 @@
 					<object class="IBUIView" id="78987692">
 						<reference key="NSNextResponder" ref="909135115"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{412, 20}, {26, 157}}</string>
+						<string key="NSFrame">{{412, 78}, {26, 157}}</string>
 						<reference key="NSSuperview" ref="909135115"/>
 						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
@@ -69,7 +69,7 @@
 					<object class="IBUIView" id="103831283">
 						<reference key="NSNextResponder" ref="909135115"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 20}, {28, 157}}</string>
+						<string key="NSFrame">{{20, 78}, {28, 157}}</string>
 						<reference key="NSSuperview" ref="909135115"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="124872530"/>
@@ -149,8 +149,8 @@
 				<reference key="NSNextKeyView" ref="103831283"/>
 				<string key="NSReuseIdentifierKey">_NS:9</string>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
+					<int key="NSColorSpace">1</int>
+					<bytes key="NSRGB">MC4xNTY4NjI3NDUxIDAuMzg4MjM1Mjk0MSAwLjEzMzMzMzMzMzMAA</bytes>
 				</object>
 				<int key="IBUIContentMode">4</int>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
