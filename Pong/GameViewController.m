@@ -110,7 +110,10 @@ int rightScore = 0;
 
 -(void)startGameTimer
 {
-    [NSTimer scheduledTimerWithTimeInterval:0.01f target:self selector:@selector(moveBall:) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:0.01f
+                                     target:self
+                                   selector:@selector(moveBall:)
+                                   userInfo:nil repeats:YES];
 }
 
 -(void)startCountdownTimer
